@@ -2,7 +2,6 @@ import React from 'react';
 
 const Button = (props) => {
     return (
-        <>
          <button
          type= {props.type}
          onClick={props.handleClick}
@@ -10,7 +9,7 @@ const Button = (props) => {
          className={props.className}>
              {props.text}
          </button>
-        </>
+
     );
 };
 
